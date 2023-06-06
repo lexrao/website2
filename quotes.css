@@ -1,0 +1,44 @@
+body {
+	background-color: #6fd7f7; 
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    overflow: hidden;
+  background-color: #ffffff;
+}
+
+nav li {
+	margin: 0 10px;
+    float: center;
+    display: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #716f6a; 
+}
+
+main {
+	margin: 50px;
+	text-align: center;
+}
+
+p {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
